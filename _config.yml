@@ -1,8 +1,8 @@
 title: kxddah
-email:
+email: 
 description: > # this means to ignore newlines until "baseurl:"
     If carpenters built buildings the way programmers write programs, then civilization would be destroyed by the first woodpecker to come along.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://pwn.computer/about" # the subpath of your site, e.g. /blog
 url: "https://pwn.computer" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Kxddah
 github_username:  kxddah
@@ -24,7 +24,7 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 # for github pages custom domains:
-include: [CNAME]
+include: [pwn.computer]
 
 dash:
   # the way how dates should be displayed
@@ -37,10 +37,10 @@ dash:
   rtl: false
 
   # Replaces the default avatar provider (gravatar)
-  #avatar_source: local
+  avatar_source: local
   github_username: kxddah
-  #avatar_source: local
-  #avatar_path: /public/media/tired.gif
+  avatar_source: local
+  avatar_path: /public/media/tired.gif
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
