@@ -7,6 +7,7 @@ layout: default
 {{ content }}
 {% assign posts_count = paginator.posts | size %}
 {% if posts_count > 0 %}
+<br/><br/><br/>
     <div class="post-links">
       {% for post in paginator.posts %}
         <div class="post-link-wrapper">

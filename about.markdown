@@ -3,17 +3,21 @@ layout: page
 title: About
 permalink: /about/
 ---
-![gif](/public/media/tired.gif)
+<img src="/public/media/tired.gif" alt="tired_person_gif" width="230" height="150">&nbsp;&nbsp;<img src="/public/media/delete.gif" alt="press_delete_gif" width="263" height="150">&nbsp;&nbsp;<img src="/public/media/bored.gif" alt="bored_gif" width="230" height="150">
+<br/><br/>
+### Bug Bounty Profiles
+<a href="https://app.intigriti.com/profile/kiddah" target="_blank">Intigriti</a><br/>
+<a href="https://hackerone.com/kiddah" target="_blank">Hackerone</a><br/>
+<a href="https://bugcrowd.com/kiddah" target="_blank">Bugcrowd</a><br/><br/>
+
+### Volunteering
+<a href="https://twitter.com/InfoSecComm" target="_blank">Ambassardor at InfoSecWriteups</a><br/><br/>
 
 
-(This page is a work in progress)
+### Certifications
+<a href="https://verified.elearnsecurity.com/certificates/0859cb88-6347-4947-a7c1-c9870a96326b" target="_blank">eJPTv1: eLearnSecurity Junior Penetration Tester</a><br/>
+<a href="https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course" target="_blank">Practical Ethical Hacker (PEH)</a><br/><br/>
 
-Hey, I go by the username kiddah (sometimes kxddah) on most platforms and am an Information Security Analyst. I have close to 1 year of experience which includes pentesting web applications, apis and networks. In my spare time I like doing bug bounty and getting infosec certifications.
-
-Here are a few links:
-- [Intigriti](https://app.intigriti.com/profile/kiddah)
-- [Hackerone](https://hackerone.com/kiddah)
-- [Twitter](https://twitter.com/Kxddah)
-- [LinkedIn](https://www.linkedin.com/in/hardik-singh-b875a5216/)
-- [HackTheBox]()
-- [GitHub](https://github.com/kxddah)
+### CTFs
+<a href="https://app.hackthebox.com/profile/393025" target="_blank">HackTheBox</a><br/>
+<a href="https://ctftime.org/team/139763" target="_blank">CTFtime.org</a>
