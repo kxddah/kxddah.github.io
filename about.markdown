@@ -11,7 +11,7 @@ permalink: /about/
 <a href="https://bugcrowd.com/kiddah" target="_blank">Bugcrowd</a><br/><br/>
 
 ### Volunteering
-<a href="https://twitter.com/InfoSecComm" target="_blank">Ambassardor at InfoSecWriteups</a><br/><br/>
+<a href="https://twitter.com/InfoSecComm" target="_blank">Ambassador at InfoSecWriteups</a><br/><br/>
 
 
 ### Certifications
