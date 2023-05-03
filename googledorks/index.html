@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html class="direction--ltr"lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="xVHVzkiyNaJd9CcT8obm030PPLDbGHuiqcts8U3feeg" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>About | kxddah</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="About" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’m an Information Security Analyst with around one year of experience in pentesting web apps, APIs and networks.Read more...About" />
+<meta property="og:description" content="I’m an Information Security Analyst with around one year of experience in pentesting web apps, APIs and networks.Read more...About" />
+<link rel="canonical" href="https://pwn.computer/googledorks/" />
+<meta property="og:url" content="https://pwn.computer/googledorks/" />
+<meta property="og:site_name" content="kxddah" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="About" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"I’m an Information Security Analyst with around one year of experience in pentesting web apps, APIs and networks.Read more...About","headline":"About","url":"https://pwn.computer/googledorks/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <link rel="stylesheet" href="/assets/css/magnific-popup.css"><link type="application/atom+xml" rel="alternate" href="https://pwn.computer/feed.xml" title="kxddah" /><script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
+  <script src="/assets/js/jquery.magnific-popup.js"></script>
+</head>
+<body><div class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">kxddah<b class="command_prompt"></b><b class="blinking_cursor">_</b></a>
+    <span class="social_links">
+        
+        
+        <a class="color-cyan-hover" href="https://twitter.com/Kxddah"><i class="fab fa-twitter-square"></i></a>
+        
+        
+        
+        <a class="color-blue-hover" href="https://www.linkedin.com/in/hardik-singh-b875a5216/"><i class="fab fa-linkedin"></i></a>
+        
+        
+        
+        <a class="color-purple-hover" href="https://github.com/kxddah"><i class="fab fa-github-square"></i></a>
+        
+        
+    </span>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Dorks for Bug Bounty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #212121;
+            color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        label {
+            font-size: 1.2em;
+        }
+        input {
+            font-size: 1em;
+            padding: 5px;
+            margin-left: 5px;
+        }
+        button {
+            font-size: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #69f0ae;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        p {
+            margin: 0;
+        }
+        p.description {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        section {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        ul.link-list {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        ul.link-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Dorks by <a href="https://github.com/TakSec">TakSec</a></h1>
+    <p>
+        <a href="https://twitter.com/TakSec" target="_blank">
+            <img src="https://img.shields.io/twitter/url/https/twitter.com/TakSec.svg?style=social&label=Follow%20%40TakSec" alt="Twitter Follow Badge">
+        </a><br><br>
+    </p>
+    <label for="domainInput">Enter a domain:</label>
+    <input type="text" id="domainInput" placeholder="example.com">
+    <button id="updateDomainButton">Update Domain</button>
+    <ul id="dorkList"></ul>
+    <section>
+        <h2>Additional Resources</h2>
+        <ul class="link-list">
+            <li><a href="https://github.com/TakSec/google-dorks-bug-bounty/" target="_blank">Google Dorks For Bug Bounty</a></li>
+            <li><a href="https://thegrayarea.tech/5-google-dorks-every-hacker-needs-to-know-fed21022a906" target="_blank">5 Google Dorks Every Hacker Needs to Know</a></li>
+            <li><a href="https://infosecwriteups.com/uncover-hidden-gems-in-the-cloud-with-google-dorks-8621e56a329d" target="_blank">Uncover Hidden Gems in the Cloud with Google Dorks</a></li>
+            <li><a href="https://infosecwriteups.com/10-google-dorks-for-sensitive-data-9454b09edc12" target="_blank">10 Google Dorks for Sensitive Data</a></li>
+        </ul>
+    </section>
+    <script>
+        let originalDorks = [];
+
+        async function fetchDorks() {
+            const url = "https://raw.githubusercontent.com/TakSec/google-dorks-bug-bounty/main/README.md";
+            const response = await fetch(url);
+            const text = await response.text();
+
+            const dorkList = document.getElementById("dorkList");
+            const regex = /(?:^### (.+)|^> (.+))/gm;
+            let match;
+            let title = '';
+            let firstDork = true;
+
+            while ((match = regex.exec(text)) !== null) {
+                if (match[1]) {
+                    // Title match
+                    title = match[1];
+                } else {
+                    // Dork match
+                    if (firstDork) {
+                        firstDork = false;
+                        continue;
+                    }
+                    const dork = match[2];
+                    originalDorks.push(dork);
+                    const listItem = createDorkListItem(dork, title);
+                    dorkList.appendChild(listItem);
+                }
+            }
+        }
+
+        let prevTitle = '';
+
+        function createDorkListItem(dork, description) {
+            const googleLink = `https://www.google.com/search?q=${encodeURIComponent(dork)}`;
+
+            const listItem = document.createElement("li");
+
+            if (description && description !== prevTitle) {
+                const desc = document.createElement("p");
+                desc.textContent = description;
+                desc.classList.add("description");
+                listItem.appendChild(desc);
+                prevTitle = description;
+            }
+
+            const link = document.createElement("a");
+            link.href = googleLink;
+            link.textContent = dork;
+            link.classList.add("dorkLink");
+            link.target = "_blank";
+
+            listItem.appendChild(link);
+
+            return listItem;
+        }
+
+        function updateDomain() {
+            const domainInput = document.getElementById("domainInput");
+            const domain = domainInput.value;
+            if (!domain) return;
+
+            const dorkLinks = document.querySelectorAll(".dorkLink");
+            dorkLinks.forEach((link, index) => {
+                const originalDork = originalDorks[index];
+                const updatedDork = originalDork.replace(/example(?:\[?\.\]?|\.)com/g, domain);
+                const updatedLink = `https://www.google.com/search?q=${encodeURIComponent(updatedDork)}`;
+
+                link.textContent = updatedDork;
+                link.href = updatedLink;
+            });
+        }
+
+        const updateDomainButton = document.getElementById("updateDomainButton");
+        updateDomainButton.addEventListener("click", updateDomain);
+
+        fetchDorks();
+    </script>
+</body>
+</html>
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="wrapper">
+    <div class="credits"><a href="https://github.com/bitbrain/jekyll-dash">dash</a> theme for Jekyll by <a href="https://github.com/bitbrain">bitbrain</a> made with <i class="fas fa-heart"></i><div class="toggleWrapper">
+    <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" checked />
+    <label for="theme-toggle" class="toggle">
+    <span class="toggle__handler">
+      <span class="crater crater--1"></span>
+      <span class="crater crater--2"></span>
+      <span class="crater crater--3"></span>
+    </span>
+        <span class="star star--1"></span>
+        <span class="star star--2"></span>
+        <span class="star star--3"></span>
+        <span class="star star--4"></span>
+        <span class="star star--5"></span>
+        <span class="star star--6"></span>
+    </label>
+</div>
+<script type="text/javascript">
+const theme = localStorage.getItem('theme');
+
+if (theme === "light") {
+    document.documentElement.setAttribute('data-theme', 'light');
+} else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+}
+const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
+
+function activateDarkTheme() {
+    document.getElementById('theme-toggle').checked = true;
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.classList.add('theme--dark');
+    document.documentElement.classList.remove('theme--light');
+	document.getElementById("theme-toggle").className = 'light';
+	window.localStorage.setItem('theme', 'dark');
+}
+
+function activateLightTheme() {
+    document.getElementById('theme-toggle').checked = false;
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.classList.add('theme--light');
+    document.documentElement.classList.remove('theme--dark');
+	document.getElementById("theme-toggle").className = 'dark';
+	window.localStorage.setItem('theme', 'light');
+}
+
+if (theme === "dark") {
+    activateDarkTheme();
+} else if (theme === "light") {
+    activateLightTheme();
+} else if  (userPrefers === "light") {
+    activateDarkTheme();
+} else {
+    activateDarkTheme();
+}
+
+function modeSwitcher() {
+	let currentMode = document.documentElement.getAttribute('data-theme');
+	if (currentMode === "dark") {
+	    activateLightTheme();
+	} else {
+	    activateDarkTheme();
+	}
+}
+</script></div>
+  </div>
+</footer>
+
+
+<script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true
+      }
+    </script>
+  </body>
+
+</html>
