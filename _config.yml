@@ -1,7 +1,7 @@
 title: kxddah
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-    I'm an Information Security Analyst with around one year of experience in pentesting web apps, APIs and networks.<br/><u>Read more...<a href="https://pwn.computer/about">About</a></u>
+    Security Analyst with experience in pentesting Web apps, APIs & Networks. Ambassador @ <a href="https://infosecwriteups.com/" target="_blank">InfoSecWriteups.com</a><br/><u><a href="https://pwn.computer/about">Read more - About</a></u>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pwn.computer" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Kxddah
