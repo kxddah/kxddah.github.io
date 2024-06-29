@@ -9,7 +9,7 @@ permalink: /about/
             color: #50BD6A;
         }
     </style>
-<p>My name is Hardik Singh and I'm a Security Analyst with experience in pentesting Web apps, APIs, Networks.</p><hr style="border-top: 2px solid white; opacity: 0.05;">
+<p>All things security!</p><hr style="border-top: 2px solid white; opacity: 0.05;">
 
 <a class="link-colour" href="mailto:kxddah@pwn.computer" target="_blank">kxddah@pwn.computer</a><br/>
 <a class="link-colour" href="https://twitter.com/Kxddah" target="_blank">Twitter</a> <b>|</b>
@@ -38,7 +38,7 @@ AppSecEngineer:<br/>
 <a class="link-colour" href="https://appsecengineer.verified.cv/en/verify/59411517302216" target="_blank">Essentials of Container Monitoring</a><br/>
 
 ### <u>CTFs</u>
-CTF Team: <a class="link-colour" href="https://ctftime.org/team/139763" target="_blank">pwn dot computer</a> (Founder)<br/>
+CTF Team: <a class="link-colour" href="https://ctftime.org/team/139763" target="_blank">pwn dot computer</a><br/>
 HackTheBox: <a class="link-colour" href="https://app.hackthebox.com/profile/393025" target="_blank">HackTheBox.com</a><br/>
 TryHackMe: <a class="link-colour" href="https://tryhackme.com/p/kiddah" target="_blank">TryHackMe.com</a><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <img src="/public/media/server.gif" alt="bored_gif"><br/><br/>
