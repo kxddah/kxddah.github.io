@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://pwn.computer/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pwn.computer/" rel="alternate" type="text/html" /><updated>2025-12-17T18:35:19+00:00</updated><id>https://pwn.computer/feed.xml</id><title type="html">kxddah</title><subtitle>Security Researcher&lt;br/&gt; Ambassador @ &lt;a href=&quot;https://infosecwriteups.com/&quot; target=&quot;_blank&quot;&gt;InfoSecWriteups.com&lt;/a&gt;&lt;br/&gt;&lt;u&gt;&lt;a style=&quot;color: #50BD6A;&quot; href=&quot;https://pwn.computer/about&quot;&gt;Read more - About&lt;/a&gt;&lt;/u&gt;
+</subtitle><entry><title type="html">My experience with eJPTv1 exam</title><link href="https://pwn.computer/2022/05/01/ejpt-certification-exam.html" rel="alternate" type="text/html" title="My experience with eJPTv1 exam" /><published>2022-05-01T18:40:00+00:00</published><updated>2022-05-01T18:40:00+00:00</updated><id>https://pwn.computer/2022/05/01/ejpt-certification-exam</id><content type="html" xml:base="https://pwn.computer/2022/05/01/ejpt-certification-exam.html"><![CDATA[<p><br />
+Last week I took my eJPT certification exam and was able to clear it. Here are some of my thoughts:
+<br /><br /></p>
+
+<h2 id="basic-info">Basic Info:<br /></h2>
+<p><strong>Preparation</strong>: INE provides a <u>Penetration Testing Student (PTS)</u> course which is more than enough to have a successful attempt. The best part is that it is free of charge! It takes you through all the basics of how web and networks work before getting into the hacking. You can find it <a href="https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student">here</a>
+<br /><br />
+<strong>Cost</strong>: 200$, validity for 180 days, 2 attempts.
+<br /><br />
+<strong>Exam</strong>: 72 hours, 20 MCQs, passing criteria: 15 MCQs (i.e. 75%)
+<br /><br />
+<strong>Changes</strong>: Note that the above information would soon be changing as eLearnSecurity will be coming out with eJPTv2 and discontinuing the v1. They would have a v2 of the PTS course, the exam would be browser-based, time would be decreased to 48 hours and questions to answer will be 35. More details can be found <a href="https://ine.com/blog/new-ejpt-coming-soon?utm_source=linkedin&amp;utm_medium=organic&amp;utm_campaign=NeweJPTComingSoon&amp;utm_content=blog">here</a>
+<br /><br /></p>
+
+<h2 id="my-experience">My experience</h2>
+<p>The exam wasn’t very tough imo, out of the 20 questions few were trivial while few required you to enumerate well and get into some machines, all the questions were based on the environment and the machines provided. I was able to complete the exam in 24 hours and scored 18 out of 20.
+<br /><br />
+With regards to preparation, the most important part of the PTS course is the 4 black box labs at the end, these were pretty thorough and prepare you well for the exam. Although I couldn’t find all the solutions to the boxes but I took a lot of notes after checking the solutions, I learned something new from each of the boxes.
+<br /><br /></p>
+<h2 id="tip">Tip:</h2>
+<p>I had read a lot of articles of people getting stuck in the beginning with the <strong>routing</strong> part, and as expected I got stuck there too, this is because the PTS lab “Find the Secret server” does not prepare you well for the routing required in the exam. It took me the first 90 minutes to figure it out and <a href="https://www.reddit.com/r/eLearnSecurity/comments/jhbx2d/ejpt_routing_advice/">this</a> reddit post gave me nudged me to the solution.
+<br /><br />
+Hope this was helpful in some way, this is my first blog post and pardon me if the site does not look complete, this is my first time building one :)</p>
+
+<p><img src="/public/media/ejpt.jpg" alt="cert image" /></p>]]></content><author><name></name></author><category term="eJPT" /><category term="Certification" /><summary type="html"><![CDATA[eJPT has moved onto v2 with changes in course material and structure.]]></summary></entry></feed>
