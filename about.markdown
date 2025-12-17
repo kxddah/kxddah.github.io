@@ -24,7 +24,7 @@ permalink: /about/
 YesWeHack: <a class="link-colour" href="https://yeswehack.com/hunters/kxddah#latest-hacktivity" target="_blank">YesWeHack.com</a><br/>
 Intigriti: <a class="link-colour" href="https://app.intigriti.com/profile/kiddah" target="_blank">Intigriti.me</a><br/>
 HackerOne: <a class="link-colour" href="https://hackerone.com/kxddah" target="_blank">Hackerone.com</a><br/>
-Bugcrowd: <a class="link-colour" href="https://bugcrowd.com/kxddah" target="_blank">Bugcrowd.com</a><br/>
+Bugcrowd: <a class="link-colour" href="https://bugcrowd.com/h/kxddah" target="_blank">Bugcrowd.com</a><br/>
 
 ### <u>Certifications</u>
 eJPTv1: <a class="link-colour" href="https://verified.elearnsecurity.com/certificates/0859cb88-6347-4947-a7c1-c9870a96326b" target="_blank">eLearnSecurity Junior Penetration Tester</a><br/>
